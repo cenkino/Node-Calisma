@@ -16,9 +16,9 @@ app.use((req, rea, next) => {
   next();
 });
 
-app.use((req, res, next) => {
-  res.render('calisma');
-});
+// app.use((req, res, next) => {
+//   res.render('calisma');
+// });
 
 app.get('/', (req, res) => {
   res.render('arama');
